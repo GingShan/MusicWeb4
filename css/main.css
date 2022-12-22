@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    position: relative;
+}
+
+body{
+    background-color: #f6ead5;
+}
+
+audio{
+    display: none;
+}
+
+.page .title{
+    width: 100%;
+    /* padding-top: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    position: relative;
+}
+
+.page .title .BtnArea{
+    position: absolute;
+    width: 13%;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.page .swiper-slide .InnerImg{
+    width: 100%;
+    padding-top: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+.page .BtnArea .Btn{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.page .BtnArea .playBtn{
+    z-index: 3;
+}
+
+.page .BtnArea .pauseBtn{
+    z-index: 2;
+}
